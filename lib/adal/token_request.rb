@@ -45,11 +45,11 @@ module ADAL
     module GrantType
       AUTHORIZATION_CODE = 'authorization_code'
       CLIENT_CREDENTIALS = 'client_credentials'
-      JWT_BEARER = 'urn:ietf:params:oauth:grant-type:jwt-bearer'
+      JWT_BEARER = 'urn:ietf:params:oauth:client-assertion-type:jwt-bearer'
       PASSWORD = 'password'
       REFRESH_TOKEN = 'refresh_token'
-      SAML1 = 'urn:ietf:params:oauth:grant-type:saml1_1-bearer'
-      SAML2 = 'urn:ietf:params:oauth:grant-type:saml2-bearer'
+      SAML1 = 'urn:ietf:params:oauth:client-assertion-type:saml1_1-bearer'
+      SAML2 = 'urn:ietf:params:oauth:client-assertion-type:saml2-bearer'
     end
 
     ##
