@@ -33,7 +33,7 @@ module ADAL
   # that means one of {V, I, W, E, F}. The DateTime object uses the to_s method
   # of DateTime from stdlib which is ISO-8601. The ProgName will be the
   # correlation id if one is sent or absent otherwise.
-  class Logger < Logger
+  class Logger < ::Logger
     SEVS = %w(VERBOSE INFO WARN ERROR FATAL)
     VERBOSE = SEVS.index('VERBOSE')
 
